@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FEDE3BD1D1052DF00F567CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEDE3BC1D1052DF00F567CA /* main.m */; };
+		4FEDE3C01D1052DF00F567CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEDE3BF1D1052DF00F567CA /* AppDelegate.m */; };
+		4FEDE3C31D1052DF00F567CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEDE3C21D1052DF00F567CA /* ViewController.m */; };
+		4FEDE3C61D1052DF00F567CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FEDE3C41D1052DF00F567CA /* Main.storyboard */; };
+		4FEDE3C81D1052DF00F567CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FEDE3C71D1052DF00F567CA /* Assets.xcassets */; };
+		4FEDE3CB1D1052DF00F567CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FEDE3C91D1052DF00F567CA /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4FEDE3B81D1052DF00F567CA /* palindrome-finder-ios-0616.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "palindrome-finder-ios-0616.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FEDE3BC1D1052DF00F567CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4FEDE3BE1D1052DF00F567CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4FEDE3BF1D1052DF00F567CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4FEDE3C11D1052DF00F567CA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4FEDE3C21D1052DF00F567CA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4FEDE3C51D1052DF00F567CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4FEDE3C71D1052DF00F567CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4FEDE3CA1D1052DF00F567CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4FEDE3CC1D1052DF00F567CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FEDE3B51D1052DF00F567CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FEDE3AF1D1052DF00F567CA = {
+			isa = PBXGroup;
+			children = (
+				4FEDE3BA1D1052DF00F567CA /* Palindrome-finder-ios-0616 */,
+				4FEDE3B91D1052DF00F567CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4FEDE3B91D1052DF00F567CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FEDE3B81D1052DF00F567CA /* palindrome-finder-ios-0616.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FEDE3BA1D1052DF00F567CA /* Palindrome-finder-ios-0616 */ = {
+			isa = PBXGroup;
+			children = (
+				4FEDE3BE1D1052DF00F567CA /* AppDelegate.h */,
+				4FEDE3BF1D1052DF00F567CA /* AppDelegate.m */,
+				4FEDE3C11D1052DF00F567CA /* ViewController.h */,
+				4FEDE3C21D1052DF00F567CA /* ViewController.m */,
+				4FEDE3C41D1052DF00F567CA /* Main.storyboard */,
+				4FEDE3C71D1052DF00F567CA /* Assets.xcassets */,
+				4FEDE3C91D1052DF00F567CA /* LaunchScreen.storyboard */,
+				4FEDE3CC1D1052DF00F567CA /* Info.plist */,
+				4FEDE3BB1D1052DF00F567CA /* Supporting Files */,
+			);
+			name = "Palindrome-finder-ios-0616";
+			path = "Palindrome-Finder_ios-0616";
+			sourceTree = "<group>";
+		};
+		4FEDE3BB1D1052DF00F567CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FEDE3BC1D1052DF00F567CA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FEDE3B71D1052DF00F567CA /* palindrome-finder-ios-0616 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FEDE3CF1D1052DF00F567CA /* Build configuration list for PBXNativeTarget "palindrome-finder-ios-0616" */;
+			buildPhases = (
+				4FEDE3B41D1052DF00F567CA /* Sources */,
+				4FEDE3B51D1052DF00F567CA /* Frameworks */,
+				4FEDE3B61D1052DF00F567CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "palindrome-finder-ios-0616";
+			productName = "Palindrome-Finder_ios-0616";
+			productReference = 4FEDE3B81D1052DF00F567CA /* palindrome-finder-ios-0616.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FEDE3B01D1052DF00F567CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Itstoday;
+				TargetAttributes = {
+					4FEDE3B71D1052DF00F567CA = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = SBQJQSJKE9;
+					};
+				};
+			};
+			buildConfigurationList = 4FEDE3B31D1052DF00F567CA /* Build configuration list for PBXProject "palindrome-finder-ios-0616" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FEDE3AF1D1052DF00F567CA;
+			productRefGroup = 4FEDE3B91D1052DF00F567CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FEDE3B71D1052DF00F567CA /* palindrome-finder-ios-0616 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FEDE3B61D1052DF00F567CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FEDE3CB1D1052DF00F567CA /* LaunchScreen.storyboard in Resources */,
+				4FEDE3C81D1052DF00F567CA /* Assets.xcassets in Resources */,
+				4FEDE3C61D1052DF00F567CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FEDE3B41D1052DF00F567CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FEDE3C31D1052DF00F567CA /* ViewController.m in Sources */,
+				4FEDE3C01D1052DF00F567CA /* AppDelegate.m in Sources */,
+				4FEDE3BD1D1052DF00F567CA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4FEDE3C41D1052DF00F567CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FEDE3C51D1052DF00F567CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4FEDE3C91D1052DF00F567CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FEDE3CA1D1052DF00F567CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4FEDE3CD1D1052DF00F567CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4FEDE3CE1D1052DF00F567CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FEDE3D01D1052DF00F567CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Palindrome-Finder_ios-0616/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.itstoday.Palindrome-Finder-ios-0616";
+				PRODUCT_NAME = "palindrome-finder-ios-0616";
+			};
+			name = Debug;
+		};
+		4FEDE3D11D1052DF00F567CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Palindrome-Finder_ios-0616/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.itstoday.Palindrome-Finder-ios-0616";
+				PRODUCT_NAME = "palindrome-finder-ios-0616";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FEDE3B31D1052DF00F567CA /* Build configuration list for PBXProject "palindrome-finder-ios-0616" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FEDE3CD1D1052DF00F567CA /* Debug */,
+				4FEDE3CE1D1052DF00F567CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FEDE3CF1D1052DF00F567CA /* Build configuration list for PBXNativeTarget "palindrome-finder-ios-0616" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FEDE3D01D1052DF00F567CA /* Debug */,
+				4FEDE3D11D1052DF00F567CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FEDE3B01D1052DF00F567CA /* Project object */;
+}
